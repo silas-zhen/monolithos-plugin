@@ -1,0 +1,11 @@
+node_modules/
+*.ts
+!*.d.ts
+src/
+package.json
+package-lock.json
+tsconfig.json
+esbuild.config.mjs
+.DS_Store
+assets1/
+generate-assets.mjs
