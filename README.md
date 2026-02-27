@@ -21,9 +21,17 @@ Every other AI tool forgets you the moment you close the window. Monolithos does
 
 ## See it in action
 
-| Memory Core & Crystallization | Chat & Synapse AI | Audio Brief & Gamma Forge |
-|:----:|:----:|:----:|
-| [▶ Watch](./assets/Readme_MMC.mov) | [▶ Watch](./assets/Readme_chat_Synapse.mov) | [▶ Watch](./assets/Readme_Audio_Gamma.mov) |
+### Memory Core & Crystallization
+
+<video src="./assets/Readme_MMC.mp4" width="100%" controls></video>
+
+### Chat & Synapse AI
+
+<video src="./assets/Readme_chat_Synapse.mp4" width="100%" controls></video>
+
+### Audio Brief & Gamma Forge
+
+<video src="./assets/Readme_Audio_Gamma.mp4" width="100%" controls></video>
 
 ---
 
@@ -71,7 +79,7 @@ When you ask the Chat a question, the Memory Core surfaces relevant Crystals fro
 
 Crystal source links appear inline in the conversation: `Sources: [◇ Crystal_20260223...]`. **Hover any link** → a floating preview instantly shows the Crystal's Core Insight. **Click it** → the original note opens. From question to source paragraph, in one natural motion.
 
-![Chat with Memory](./assets/Chat%20Sources%20.jpeg)
+![Chat with Memory](./assets/Chat%20Sources.jpeg)
 
 #### Memory Dashboard — Your Cognition, Made Visible
 
@@ -97,7 +105,7 @@ Six intelligence modes from instant fluid responses to deep strategic reasoning.
 
 **Getting started:** Open the Core panel → click the top-left icon to launch Chat. After your first session, you can switch back anytime via the 💬 icon in Obsidian's sidebar.
 
-![Chat](./assets/Chat%20.png)
+![Chat](./assets/Chat.png)
 
 ### 🔷 Synapse — In-Note AI Panel
 
