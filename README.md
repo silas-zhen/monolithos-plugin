@@ -73,7 +73,7 @@ Your AI stops being amnesiac. It retrieves what you've actually thought, the day
 
 Six intelligence modes — **Auto, Velocity, Omni, Strategy, Deep, Custom** — backed by Claude Opus, Grok, and Gemini Pro. Attach files. Reference notes with `@`. Voice input. Conversation history preserved per session.
 
-![Chat](./assets/Chat%20.png)
+![Chat](./assets/Chat.png)
 
 ### 🔷 Synapse — In-Note AI Panel
 
