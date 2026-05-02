@@ -370,6 +370,133 @@
 
 
 /* ═══════════════════════════════════════════════════════════════════════════
+   10b. SUBSCRIPTION INFO
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.monolith-subscription__divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin: 20px 0 16px;
+}
+
+.theme-light .monolith-subscription__divider {
+    border-top-color: rgba(0, 0, 0, 0.08);
+}
+
+.monolith-subscription__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.monolith-subscription__row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.monolith-subscription__key {
+    font-family: var(--font-monolithos-mono);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--settings-text-muted);
+    min-width: 64px;
+}
+
+.monolith-subscription__value {
+    font-family: var(--font-monolithos-mono);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--settings-text-primary);
+    display: flex;
+    align-items: center;
+}
+
+/* Status dot inside subscription */
+.monolith-subscription__status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--settings-text-muted);
+}
+
+.monolith-subscription__status-dot--active {
+    background: var(--settings-accent-green);
+}
+
+.monolith-subscription__status-dot--expired {
+    background: var(--settings-accent-red);
+}
+
+.monolith-subscription__status-dot--warning {
+    background: #e5a722;
+}
+
+.monolith-subscription__status-text--active {
+    color: var(--settings-accent-green);
+}
+
+.monolith-subscription__status-text--expired {
+    color: var(--settings-accent-red);
+}
+
+.monolith-subscription__status-text--warning {
+    color: #e5a722;
+}
+
+/* Action link */
+.monolith-subscription__action {
+    margin-top: 14px;
+}
+
+.monolith-subscription__link {
+    font-family: var(--font-monolithos-mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--settings-text-primary);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background 150ms ease, border-color 150ms ease;
+}
+
+.monolith-subscription__link:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    color: var(--settings-text-primary);
+}
+
+.monolith-subscription__link--warning {
+    border-color: rgba(229, 167, 34, 0.4);
+    color: #e5a722;
+}
+
+.monolith-subscription__link--warning:hover {
+    border-color: rgba(229, 167, 34, 0.6);
+    color: #e5a722;
+}
+
+.theme-light .monolith-subscription__link {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.theme-light .monolith-subscription__link:hover {
+    background: rgba(0, 0, 0, 0.06);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
    11. TEXTAREA COMPONENT
    ═══════════════════════════════════════════════════════════════════════════ */
 
@@ -723,7 +850,7 @@
 
 /* Logo - Clickable */
 .monolithos-core-header-logo {
-    width: 40px;
+    width: 80px;
     height: auto;
     opacity: 0.7;
     cursor: pointer;

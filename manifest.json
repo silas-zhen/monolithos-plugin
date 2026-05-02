@@ -3,7 +3,7 @@
     "name": "Monolithos",
     "version": "1.0.0",
     "minAppVersion": "1.5.0",
-    "description": "A sovereign AI Life Operating System with persistent memory. Your AI remembers everything you've written — deterministic, traceable, local-first. Chat, crystallize, generate podcasts and presentations, all inside your vault.",
+    "description": "An AI companion for local-first thinking. Crystallize notes into structured memory, summon AI inline with Cmd+J, transform writing into podcasts and presentations — all inside your vault.",
     "author": "Silas Yu",
     "authorUrl": "https://monolithos.ai",
     "isDesktopOnly": false
