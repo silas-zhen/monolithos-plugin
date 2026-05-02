@@ -1,8 +1,8 @@
-# MONOLITHOS
+# Monolithos for Obsidian
 
-**Own Your Mind.**
+**Your AI Companion for Local-First Thinking.**
 
-A sovereign Life Operating System built on Obsidian. Your AI doesn't just generate — it remembers. Your data never leaves your machine.
+A privacy-first AI plugin for Obsidian. Crystallize your notes into structured memory, summon AI inline with `Cmd+J`, transform your writing into podcasts and presentations — all while your vault stays on your machine.
 
 > *Chaos is the fabric. Order is the cut.*
 
@@ -13,25 +13,17 @@ A sovereign Life Operating System built on Obsidian. Your AI doesn't just genera
 
 ## What is Monolithos?
 
-Monolithos is an AI-powered Life Operating System that runs entirely inside your Obsidian vault. It connects your local notes to the world's most powerful AI models — Claude 4.6, Grok, and Gemini 3.1 Pro — while keeping everything private, local-first, and under your control.
+Monolithos is a sovereign AI companion that lives inside your Obsidian vault. It connects your local notes to top-tier AI models — Claude Opus, Grok, Gemini Pro — while keeping everything private, local-first, and under your control.
 
-Every other AI tool forgets you the moment you close the window. Monolithos doesn't. It crystallizes your thinking into permanent cognitive assets, retrieves them when you need them, and traces every insight back to where it came from. Your vault stays on your machine. The AI comes to you.
+Every other AI tool forgets you the moment you close the window. Monolithos doesn't. It crystallizes your thinking into permanent cognitive assets, retrieves them when you need them, and traces every insight back to where it came from. **Your vault stays on your machine. The AI comes to you.**
 
 ![Monolithos](./assets/Hero.png)
 
 ## See it in action
 
-### Memory Core & Crystallization
-
-<video src="./assets/Readme_MMC.mp4" width="100%" controls></video>
-
-### Chat & Synapse AI
-
-<video src="./assets/Readme_chat_Synapse.mp4" width="100%" controls></video>
-
-### Audio Brief & Gamma Forge
-
-<video src="./assets/Readme_Audio_Gamma.mp4" width="100%" controls></video>
+| Memory Core & Crystallization | Chat & Synapse AI | Audio Brief & Gamma Forge |
+|:----:|:----:|:----:|
+| [![Memory Core & Crystallization](https://img.youtube.com/vi/X_MPqgisdYM/maxresdefault.jpg)](https://youtube.com/shorts/X_MPqgisdYM) | [![Chat & Synapse AI](https://img.youtube.com/vi/Cpf_fo2oGLs/maxresdefault.jpg)](https://youtube.com/shorts/Cpf_fo2oGLs) | [![Audio Brief & Gamma Forge](https://img.youtube.com/vi/h2rdc5LR9BQ/maxresdefault.jpg)](https://youtu.be/h2rdc5LR9BQ) |
 
 ---
 
@@ -47,7 +39,7 @@ MMC is the opposite architecture. When you think, it crystallizes. When you slee
 
 #### Forge Crystal — One-Click Multimodal Crystallization
 
-Open any note → click **Forge Crystal** in the Core panel → in 10-30 seconds, a new Crystal file appears.
+Open any note → click **Forge Crystal** in the Core panel → in 10–30 seconds, a new Crystal file appears.
 
 Supports **multimodal crystallization**: notes, PDFs, documents, audio transcriptions, and images are all crystallized into structured cognitive assets.
 
@@ -63,49 +55,25 @@ Your original note receives a `crystallized` status and a backward link to its C
 
 #### Night Watch — Automated Batch Crystallization
 
-While you sleep, it works.
+While you sleep, it works. Night Watch scans your vault on a schedule, crystallizes new notes, and queues them for your morning review. Wake up to a vault that has compounded overnight.
 
-Night Watch scans your vault on a schedule, crystallizes your unstructured notes in batch, and queues them for your review. Configure scan folders, set a time (e.g., 04:00), and let it run. You wake up with a more complete mind than when you closed your eyes.
+#### Memory Retrieval — AI With Continuity
 
-You can also trigger batch crystallization manually from the Night Watch icon anytime.
+Three modes:
 
-![Night Watch](./assets/Night%20Watch.png)
+- **Always On** — every AI conversation has full memory context
+- **Smart** — memory injected only when relevant
+- **Off** — for sensitive sessions
 
-#### Chat with Memory — Every Answer Cites Its Source
-
-Your AI no longer guesses. It retrieves.
-
-When you ask the Chat a question, the Memory Core surfaces relevant Crystals from your vault and injects them into context. The AI answers with knowledge of everything you've ever written — and every answer cites its source.
-
-Crystal source links appear inline in the conversation: `Sources: [◇ Crystal_20260223...]`. **Hover any link** → a floating preview instantly shows the Crystal's Core Insight. **Click it** → the original note opens. From question to source paragraph, in one natural motion.
-
-![Chat with Memory](./assets/Chat%20Sources.jpeg)
-
-#### Memory Dashboard — Your Cognition, Made Visible
-
-Every Crystal. Every connection. Every integrity score. A real-time mirror of your mind:
-
-- **Metrics**: Total Crystals, Active Memory, Connections, Average Integrity Score
-- **Crystallization Frequency**: When and how often your vault is being processed
-- **AI Integrity Distribution**: Quality scores across all Crystals
-- **Knowledge Topology**: Visual tag cloud showing the shape of your thinking across domains
-- **Crystal Lifecycle**: Status tracking — Active, Pending, Archived, Rejected
-
-This is not a productivity dashboard. This is a map of your cognitive territory.
-
-![Memory Dashboard](./assets/Memory%20Dashboard.png)
+Your AI stops being amnesiac. It retrieves what you've actually thought, the day you thought it, with citations.
 
 ---
 
-### 💬 Chat — Multimodal AI Dialogue
+### 💬 Chat — Multimodal AI Conversation
 
-Your private AI advisory council. Text, images, audio, video, PDFs — all understood natively.
+Six intelligence modes — **Auto, Velocity, Omni, Strategy, Deep, Custom** — backed by Claude Opus, Grok, and Gemini Pro. Attach files. Reference notes with `@`. Voice input. Conversation history preserved per session.
 
-Six intelligence modes from instant fluid responses to deep strategic reasoning. Reference any note in your vault with `@` mentions. Voice input built in.
-
-**Getting started:** Open the Core panel → click the top-left icon to launch Chat. After your first session, you can switch back anytime via the 💬 icon in Obsidian's sidebar.
-
-![Chat](./assets/Chat.png)
+![Chat](./assets/Chat%20.png)
 
 ### 🔷 Synapse — In-Note AI Panel
 
@@ -115,11 +83,9 @@ AI operations that come to you. No view switching. No context loss.
 - **Select any text** → a floating mini bar appears with quick actions
 - **Press `Cmd+J` without selection** → the full action menu opens at your cursor
 
-**9 AI actions**: Crystallize, Refine, Expand, Translate, Boardroom, Summarize, Extract Actions, Delegate*, and Gamma. Plus a freeform text input — type anything and ask the AI directly.
+**9 AI actions**: Crystallize, Refine, Expand, Translate, Boardroom, Summarize, Extract Actions, Delegate, and Gamma. Plus a freeform text input — type anything and ask the AI directly.
 
 Results stream into your document with a typewriter effect. Works on desktop and mobile (persistent keyboard toolbar on mobile).
-
-*\*Delegate routes to Blackstone Direct Line — coming in a future update.*
 
 | Desktop | Mobile |
 |:----:|:----:|
@@ -138,7 +104,7 @@ Transform any note into a professional dual-host podcast in 10 languages.
 | **Roast** | Sharp-witted comedy dissection |
 | **Briefing** | CIA morning brief — cold, precise |
 
-One click. 2-5 minutes. Broadcast-quality audio from your own writing.
+One click. 2–5 minutes. Broadcast-quality audio from your own writing.
 
 ![Audio Brief](./assets/AUDIO%20BRIEF.png)
 
@@ -146,7 +112,7 @@ One click. 2-5 minutes. Broadcast-quality audio from your own writing.
 
 Forge your notes into professional-grade presentations powered by a dual-AI pipeline.
 
-Three modes: **Deep Generate** (AI extracts narrative structure), **Summarize** (condense to essentials), **Keep As Is** (preserve your structure). Adjustable slide count (8-16) and image ratio.
+Three modes: **Deep Generate** (AI extracts narrative structure), **Summarize** (condense to essentials), **Keep As Is** (preserve your structure). Adjustable slide count (8–16) and image ratio.
 
 ![Gamma Forge](./assets/gamma.png)
 
@@ -154,7 +120,7 @@ Three modes: **Deep Generate** (AI extracts narrative structure), **Summarize** 
 
 Your iPhone becomes an event horizon. Photos, voice memos, screenshots, PDFs — captured, AI-analyzed, and crystallized into your vault via iOS Shortcut.
 
-Share anything → AI processes it → structured note appears in Obsidian. 3-10 seconds.
+Share anything → AI processes it → structured note appears in Obsidian. 3–10 seconds.
 
 ### ⚙️ Core — Command Center
 
@@ -207,7 +173,7 @@ Switch instantly between two modes:
                        ▼
 ┌─────────────────────────────────────────────────────────┐
 │   MONOLITHOS BACKEND (Sovereign Infrastructure)          │
-│   Claude 4.6 │ Grok │ Gemini 3.1 Pro Deep Think         │
+│   Claude Opus │ Grok │ Gemini Pro                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -226,7 +192,7 @@ Switch instantly between two modes:
 ### Via BRAT (Beta)
 
 1. Install the [BRAT plugin](https://github.com/TfTHacker/obsidian42-brat)
-2. Add beta plugin: `monolithos/monolithos-plugin`
+2. Add beta plugin: `silas-zhen/monolithos-plugin`
 3. Enable Monolithos in Community Plugins
 4. Enter your API Key in Settings
 
@@ -234,20 +200,22 @@ Switch instantly between two modes:
 
 Visit **[get.monolithos.ai](https://get.monolithos.ai)** to register for a free 7-day trial. Full access. No credit card.
 
+> *Your Monolithos account works across every place we live — including the desktop and mobile apps available at [monolithos.ai](https://monolithos.ai). One subscription, your vault stays one vault.*
+
 ---
 
 ## Pricing
 
-The Monolithos plugin is free to install. You pay only for AI compute.
+The Monolithos plugin is free to install. AI features run on a generous monthly quota.
+
+> *Your subscription works seamlessly across the plugin and our [companion desktop and mobile apps](https://monolithos.ai). One account, one vault, one quota.*
 
 | Plan | Price | What You Get |
 |:-----|:------|:-------------|
-| **Free Trial** | $0 / 7 days | Full access to every feature. No credit card required. |
-| **Monthly** | $39/month | Unlimited AI compute. Claude 4.6, Grok, Gemini 3.1 Pro. Cancel anytime. |
-| **Annual** | $349/year | Same power. Save $119. |
-| **Founding Member** | $999 lifetime | 50 seats. All current and future features. Direct line to the architect. |
-
-Daily trial limits: 20 chats · 3 crystallizations · 1 Audio Brief · 1 Gamma Forge
+| **Free Trial** | $0 / 7 days | Full feature access. Reasonable trial quotas. No credit card. |
+| **Core** | $39/mo · $349/yr | Generous monthly compute & memory quotas. All AI models — Claude Opus, Grok, Gemini Pro. |
+| **Max** | $89/mo · $859/yr | Higher quotas for power users. All AI models. |
+| **Founding Member** | $999 lifetime · 50 seats hard cap | Lifetime Max-level quota, locked in for life. Direct line to the architect. |
 
 → **[Start your free trial](https://get.monolithos.ai)**
 → **[View full pricing](https://monolithos.ai)**
@@ -297,7 +265,7 @@ Daily trial limits: 20 chats · 3 crystallizations · 1 Audio Brief · 1 Gamma F
 ## Support
 
 - **Email**: hello@monolithos.ai
-- **Issues**: [GitHub Issues](https://github.com/monolithos/monolithos-plugin/issues)
+- **Issues**: [GitHub Issues](https://github.com/silas-zhen/monolithos-plugin/issues)
 - **Website**: [monolithos.ai](https://monolithos.ai)
 
 ---
@@ -307,8 +275,8 @@ Daily trial limits: 20 chats · 3 crystallizations · 1 Audio Brief · 1 Gamma F
 | Phase | Name | Timeline |
 |:------|:-----|:---------|
 | **I** | The Foundation | Current — Chat, Synapse, Audio Brief, Gamma Forge, Black Hole, MMC |
-| **II** | The Black Stone Press | March 2026 — AI-augmented native Markdown renderer |
-| **III** | The Invisible Hand | May 2026 — Sovereign MCP Hub, zero-prompt automation |
+| **II** | The Black Stone Press | Q2 2026 — AI-augmented native Markdown renderer |
+| **III** | The Invisible Hand | Q3 2026 — Sovereign MCP Hub, zero-prompt automation |
 
 Founding Members receive lifetime access to all phases at zero additional cost.
 
